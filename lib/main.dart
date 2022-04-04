@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.deepPurple.shade700,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200.0,
+                  width: 150.0,
                   height: 20.0,
                   child: Divider(
                     color: Colors.amberAccent,
@@ -47,12 +47,12 @@ class MyApp extends StatelessWidget {
 
                 Card(
                   color: Colors.white38,
-                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 55.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.phone,
                       size: 35.0,
-                      color: Colors.amberAccent,
+                      color: Colors.amberAccent.shade400,
                     ),
                     title: Text('+354 697 7058',
                       style: TextStyle(
@@ -65,12 +65,12 @@ class MyApp extends StatelessWidget {
                 ),
                 Card(
                   color: Colors.white38,
-                  margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                  margin: EdgeInsets.symmetric(vertical: 15.0, horizontal: 55.0),
                   child: ListTile(
                     leading: Icon(
                       Icons.email,
                       size: 35.0,
-                      color: Colors.amberAccent,
+                      color: Colors.amberAccent.shade400,
                     ),
                     title: Text('kaifletcher@gmail.com',
                       style: TextStyle(
